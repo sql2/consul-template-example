@@ -19,7 +19,7 @@ RUN \
 
 ### Final
 #
-FROM alpine:latest
+FROM alpine:3.12
 LABEL maintainer "John Eikenberry <jae@zhar.net>"
 
 # UID and GID of consul-template user and group.
